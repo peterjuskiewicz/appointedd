@@ -41,11 +41,8 @@ const parseData = (data) => {
 };
 
 // problem 1
-
+// create times array of all interval stars
 const earliestIntervalStart = (data) => {
-  // create times array of all intervals
-  // items in the array are numbers representing ms since Epoche
-  // items are sorted
   let times = [];
   data.map((item) =>
     item.times.map((interval) => (times = [...times, interval[0]]))
@@ -58,11 +55,9 @@ const earliestIntervalStart = (data) => {
 };
 
 // problem 2
-
+// create times array of all interval ends
 const latestIntervalEnd = (data) => {
-  // create times array of all intervals
-  // items in the array are numbers representing ms since Epoche
-  // items are sorted
+  
   let times = [];
   data.map((item) =>
     item.times.map((interval) => (times = [...times, interval[1]]))
@@ -77,13 +72,11 @@ const latestIntervalEnd = (data) => {
 // problem 3
 
 const overlapingIntervals = (data) => {
-  // create times array of all workers intervals
-  // items in the array are objects with id and iterval properties
 
+  // create times array of all workers' intervals
   let times = [];
 
   // mapping the data and manipulating times to UTC
-
   data.map((item) =>
     item.times.map(
       (interval) =>
