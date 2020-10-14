@@ -1,4 +1,4 @@
-# Appointedd programming chalennge
+# Appointedd programming challenge
 
 ## Run the solution
 
