@@ -1,0 +1,20 @@
+{
+  "name": "appointedd",
+  "version": "1.0.0",
+  "description": "JavaScript challenge",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "jest"
+  },
+  "author": "Piotr Juskiewicz",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.29.1",
+    "moment-range": "^4.0.2",
+    "ramda": "^0.27.1"
+  },
+  "devDependencies": {
+    "jest": "^26.5.3"
+  }
+}
