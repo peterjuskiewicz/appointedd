@@ -2,6 +2,9 @@
 
 ## Run the solution
 
+Install dependencies:
+`npm install`
+
 Run the program with the filename: 
 `npm start data.txt`
 
@@ -32,7 +35,7 @@ In the code there are several `Array.map()` manipulating and cleaning data.
 
  ### Question 3
 
- The solution required to use `moment-range` plugin for time range manipulation. I created an additional data structure to manipulate the data, an array of times objects with worker id and only one interval properties. 
+ The solution required to use `moment-range` plugin for time range manipulation. There is an additional data structure that will help with further manipulation: 
 
   `[{
     id: '2',
@@ -49,7 +52,7 @@ There are following steps in this algorithm
 3. Get full intervals
 4. Format the return value to represent range string as ISO 8601
 
-It was the most complex question and I'm sure there's space for refactioring and improving this solution. 
+It was the most complex question and I'm sure there's space for refactoring and improving this solution. 
 
 ### Tests
 
